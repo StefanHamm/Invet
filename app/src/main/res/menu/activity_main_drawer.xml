@@ -17,8 +17,12 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
+            android:id="@+id/nav_share"
             android:icon="@android:drawable/ic_menu_share"
-            android:title="SHARE DB" />
-        <item android:title="IMPORT DB" />
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/menu_import" />
     </group>
 </menu>
