@@ -9,7 +9,11 @@
         android:id="@+id/nav_home"
         android:name="com.main.invet.ui.home.HomeFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_displayBoxes"
+            app:destination="@id/nav_displayBoxes" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
@@ -27,5 +31,14 @@
         android:id="@+id/nav_addentry"
         android:name="com.main.invet.ui.addEntry.addEntryFragment"
         android:label="Add Entry"
-        tools:layout="@layout/fragment_addentry"/>
+        tools:layout="@layout/fragment_addentry">
+        <action
+            android:id="@+id/action_nav_addentry_to_nav_displayBoxes"
+            app:destination="@id/nav_displayBoxes" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_displayBoxes"
+        android:name="com.main.invet.ui.displayboxes.displayBoxes"
+        android:label="fragment_display_boxes"
+        tools:layout="@layout/fragment_display_boxes" />
 </navigation>
