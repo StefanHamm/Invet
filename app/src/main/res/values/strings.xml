@@ -22,4 +22,10 @@
     <string name ="add_entry_hint_entrycount">Entry count</string>
     <string name ="add_entry_text_add_itme">Add item</string>
     <string name="add_entry_item_list">Items added</string>
+    <string name="add_entry_add_item">Add Item</string>
+    <string name="add_entry_item_name">Item Name</string>
+    <string name="add_entry_item_count">Item Count</string>
+
+    <string name="save">Save</string>
+    <string name="abort">Abort</string>
 </resources>
