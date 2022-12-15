@@ -26,10 +26,10 @@ class addEntryFragment:Fragment() {
         _binding = FragmentAddentryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textAddentry
+        /*val textView: TextView = binding.textAddentry
         galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
-        }
+        }*/
         return root
     }
 

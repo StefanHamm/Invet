@@ -15,4 +15,10 @@
 
     <string name="home_new">Create new DB</string>
     <string name="home_open">Open existing DB</string>
+
+    <string name ="add_entry_hint_boxname">Boxname</string>
+    <string name ="add_entry_hint_boxnumber">Boxnumber</string>
+    <string name ="add_entry_hint_entryname">Entry name</string>
+    <string name ="add_entry_hint_entrycount">Entry count</string>
+    <string name ="add_entry_text_add_itme">Add item</string>
 </resources>
