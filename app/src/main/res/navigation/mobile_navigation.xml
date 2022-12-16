@@ -40,5 +40,26 @@
         android:id="@+id/nav_displayBoxes"
         android:name="com.main.invet.ui.displayboxes.displayBoxes"
         android:label="fragment_display_boxes"
-        tools:layout="@layout/fragment_display_boxes" />
+        tools:layout="@layout/fragment_display_boxes" >
+        <action
+            android:id="@+id/action_nav_displayBoxes_to_displayItems"
+            app:destination="@id/displayItems" />
+        <action
+            android:id="@+id/action_nav_displayBoxes_to_nav_addentry"
+            app:destination="@id/nav_addentry" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayItems"
+        android:name="com.main.invet.ui.displayitems.displayItems"
+        android:label="fragment_display_items"
+        tools:layout="@layout/fragment_display_items" >
+        <action
+            android:id="@+id/action_displayItems_to_nav_displayBoxes"
+            app:destination="@id/nav_displayBoxes" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.main.invet.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
 </navigation>

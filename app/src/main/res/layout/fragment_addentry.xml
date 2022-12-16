@@ -128,7 +128,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/add_item"
+                android:id="@+id/additem_button_add_item"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/add_entry_text_add_itme" />
@@ -148,7 +148,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/addentry_button_save"
+                    android:id="@+id/additem_button_save"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -160,11 +160,11 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:id="@+id/addentry_button_abort"
+                    android:id="@+id/additem_button_abort"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Button" />
+                    android:text="@string/abort" />
 
                 <Space
                     android:layout_width="wrap_content"
